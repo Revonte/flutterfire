@@ -34,8 +34,6 @@ export 'src/auth/oauth/providers/google_provider.dart'
     show GoogleProviderConfiguration;
 export 'src/auth/oauth/providers/twitter_provider.dart'
     show TwitterProviderConfiguration;
-export 'src/auth/oauth/providers/facebook_provider.dart'
-    show FacebookProviderConfiguration;
 
 export 'src/auth/widgets/auth_flow_builder.dart';
 export 'src/auth/widgets/email_form.dart'
@@ -58,7 +56,6 @@ export 'src/auth/widgets/reauthenticate_dialog.dart';
 export 'src/auth/widgets/different_method_sign_in_dialog.dart';
 export 'src/auth/widgets/email_sign_up_dialog.dart';
 export 'src/auth/widgets/apple_sign_in_button.dart';
-export 'src/auth/widgets/facebook_sign_in_button.dart';
 export 'src/auth/widgets/google_sign_in_button.dart';
 export 'src/auth/widgets/twitter_sign_in_button.dart';
 

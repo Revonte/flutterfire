@@ -41,10 +41,6 @@ class LoginViewStory extends StoryWidget {
             clientId: GOOGLE_CLIENT_ID,
           ),
         if (appleEnabled) const AppleProviderConfiguration(),
-        if (facebookEnabled)
-          const FacebookProviderConfiguration(
-            clientId: FACEBOOK_CLIENT_ID,
-          ),
         if (twitterEnabled)
           const TwitterProviderConfiguration(
             apiKey: TWITTER_API_KEY,
